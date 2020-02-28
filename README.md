@@ -3,7 +3,7 @@ Materials for the conference: Test: Fest 29.02.2020 Wrocław
 
 Source code from my presentation „Jak my developerzy robimy to na backendzie”. 
 
-1. Slides: `*fixme*`
+1. Slides: `https://bit.ly/3caSvAy`
 1. Getting code: `https://github.com/RobertPod/breathalyser`
 1. Running code:
     1. `mvn test` – run basic test set without pitest mutations.

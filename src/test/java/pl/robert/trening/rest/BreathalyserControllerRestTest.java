@@ -25,7 +25,7 @@ class BreathalyserControllerRestTest {
     private MockMvc mockMvc;
 
     @Test
-    public void whenCanIDriveMapInput() throws Exception {
+    public void whenCanIDriveDrink1l2p2h() throws Exception {
         // Given
         TreeMap<Integer, Integer> drinkingHistory = new TreeMap<>();
         drinkingHistory.put(1, 10);
@@ -33,7 +33,7 @@ class BreathalyserControllerRestTest {
         // When
         int iCanDrive = callEndpoint(drinkingHistory);
         // Then
-        assertEquals(21, iCanDrive, "Po pół litra na twarz w dwie godziny");
+        assertEquals(21, iCanDrive, "1l2p2h");
     }
 
     @Test

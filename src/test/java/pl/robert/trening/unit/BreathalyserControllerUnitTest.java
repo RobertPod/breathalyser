@@ -29,6 +29,6 @@ class BreathalyserControllerUnitTest {
         // When
         calculateAlcohol.drink(drinkingHistory);
         // Then
-        assertEquals(21, calculateAlcohol.whenCanIDrive(), "1 litr na dwóch w 2h");
+        assertEquals(21, calculateAlcohol.whenCanIDrive(), "1l2p2h");
     }
 }
