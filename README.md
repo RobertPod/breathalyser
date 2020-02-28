@@ -1,2 +1,14 @@
-# breathalyser
+# Jak my developerzy robimy to na backendzie: breathalyser
 Materials for the conference: Test: Fest 29.02.2020 Wrocław
+
+Source code from my presentation „Jak my developerzy robimy to na backendzie”. 
+
+1. Slides: `*fixme*`
+1. Getting code: `https://github.com/RobertPod/breathalyser`
+1. Running code:
+    1. `mvn test` – run basic test set without pitest mutations.
+    1. `mvn test -Pm` – run all tests with pitest mutations.
+1. Knows issues:
+    1. When running `m` profile JGiven generates reports in \target\pit-reports\
+    
+  
