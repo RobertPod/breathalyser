@@ -2,6 +2,7 @@
 Materials for the conference: Test: Fest 29.02.2020 Wrocław
 
 Source code from my presentation „Jak my developerzy robimy to na backendzie”. 
+Thanks to `https://koziolekweb.pl/` for the opportunity to see dependencies.
 
 1. Slides: `https://bit.ly/3caSvAy`
 1. Getting code: `https://github.com/RobertPod/breathalyser`
