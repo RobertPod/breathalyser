@@ -1,10 +1,9 @@
 # Jak my developerzy robimy to na backendzie: breathalyser
-Materials for the conference: Test: Fest 29.02.2020 Wrocław
+Materials for the conferences.
 
 Source code from my presentation „Jak my developerzy robimy to na backendzie”. 
 Thanks to `https://koziolekweb.pl/` for the opportunity to see dependencies.
 
-1. Slides: `https://bit.ly/3caSvAy`
 1. Getting code: `https://github.com/RobertPod/breathalyser`
 1. Running code:
     1. `mvn test` – run basic test set without pitest mutations.
