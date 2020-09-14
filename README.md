@@ -4,6 +4,8 @@ Materials for the conferences.
 Source code from my presentation „Jak my developerzy robimy to na backendzie”. 
 Thanks to `https://koziolekweb.pl/` for the opportunity to see dependencies.
 
+1. Slides test:fest: `https://bit.ly/3caSvAy`
+1. 4developers: `todo`
 1. Getting code: `https://github.com/RobertPod/breathalyser`
 1. Running code:
     1. `mvn test` – run basic test set without pitest mutations.
