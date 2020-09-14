@@ -1,8 +1,8 @@
-package pl.robert.trening.rest;
+package pl.robert.training.rest;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import pl.robert.trening.breathalyser.CalculateAlcoholImpl;
+import pl.robert.training.breathalyser.CalculateAlcoholImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

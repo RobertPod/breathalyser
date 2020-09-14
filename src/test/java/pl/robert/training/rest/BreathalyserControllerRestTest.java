@@ -1,4 +1,4 @@
-package pl.robert.trening.rest;
+package pl.robert.training.rest;
 
 import com.google.gson.Gson;
 import org.junit.jupiter.api.Test;
@@ -36,6 +36,20 @@ class BreathalyserControllerRestTest {
         assertEquals(21, iCanDrive, "1l2p2h");
     }
 
+    // example for resolve red line in mutation test in
+    //     pl.robert.training.breathalyser.CalculateAlcoholImpl:54
+    // uncomment it and will not be mutation error for this line
+//    @Test
+//    public void whenCanIDriveDrink1sja1h() throws Exception {
+//        // Given
+//        TreeMap<Integer, Integer> drinkingHistory = new TreeMap<>();
+//        drinkingHistory.put(1, 1);
+//        // When
+//        int iCanDrive = callEndpoint(drinkingHistory);
+//        // Then
+//        assertEquals(2, iCanDrive, "1sja1h");
+//    }
+
     @Test
     public void whenCanIDriveNoDrink() throws Exception {
         // Given
@@ -43,7 +57,7 @@ class BreathalyserControllerRestTest {
         // When
         int iCanDrive = callEndpoint(drinkingHistory);
         // Then
-        assertEquals(0, iCanDrive, "Wypiłem tylko cocacole");
+        assertEquals(0, iCanDrive, "Wypiłem tylko cole");
     }
 
     @Test

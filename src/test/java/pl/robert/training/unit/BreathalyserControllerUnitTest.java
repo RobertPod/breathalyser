@@ -1,7 +1,7 @@
-package pl.robert.trening.unit;
+package pl.robert.training.unit;
 
-import pl.robert.trening.breathalyser.CalculateAlcohol;
-import pl.robert.trening.breathalyser.CalculateAlcoholImpl;
+import pl.robert.training.breathalyser.CalculateAlcohol;
+import pl.robert.training.breathalyser.CalculateAlcoholImpl;
 import org.junit.jupiter.api.Test;
 
 import java.util.TreeMap;

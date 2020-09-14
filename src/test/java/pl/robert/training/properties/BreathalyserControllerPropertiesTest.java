@@ -1,11 +1,11 @@
-package pl.robert.trening.properties;
+package pl.robert.training.properties;
 
-import pl.robert.trening.breathalyser.CalculateAlcohol;
+import pl.robert.training.breathalyser.CalculateAlcohol;
 import net.jqwik.api.Example;
 import net.jqwik.api.ForAll;
 import net.jqwik.api.Property;
 import net.jqwik.api.constraints.IntRange;
-import pl.robert.trening.breathalyser.CalculateAlcoholImpl;
+import pl.robert.training.breathalyser.CalculateAlcoholImpl;
 
 import java.util.TreeMap;
 

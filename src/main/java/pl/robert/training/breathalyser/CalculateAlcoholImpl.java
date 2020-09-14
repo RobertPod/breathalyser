@@ -1,4 +1,4 @@
-package pl.robert.trening.breathalyser;
+package pl.robert.training.breathalyser;
 
 import java.util.Map;
 import java.util.TreeMap;

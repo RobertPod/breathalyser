@@ -23,7 +23,7 @@
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <main.class>pl.robert.trening.RestServiceApplication</main.class>
+        <main.class>pl.robert.training.RestServiceApplication</main.class>
 
         <junit.jupiter.version>5.4.2</junit.jupiter.version>
         <pitest.version>1.4.10</pitest.version>
@@ -101,11 +101,11 @@
                         </dependencies>
                         <configuration>
                             <targetClasses>
-                                <param>pl.robert.trening.*</param>
+                                <param>pl.robert.training.*</param>
                             </targetClasses>
                             <targetTests>
                                 <!--<param>pl.robert.trening.unit*</param>-->
-                                <param>pl.robert.trening.rest*</param>
+                                <param>pl.robert.training.rest.*</param>
                             </targetTests>
                         </configuration>
                         <executions>

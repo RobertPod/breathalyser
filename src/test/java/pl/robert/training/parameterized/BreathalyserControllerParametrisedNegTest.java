@@ -1,4 +1,4 @@
-package pl.robert.trening.parameterized;
+package pl.robert.training.parameterized;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -8,8 +8,8 @@ import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import pl.robert.trening.breathalyser.CalculateAlcohol;
-import pl.robert.trening.breathalyser.CalculateAlcoholImpl;
+import pl.robert.training.breathalyser.CalculateAlcohol;
+import pl.robert.training.breathalyser.CalculateAlcoholImpl;
 
 public class BreathalyserControllerParametrisedNegTest {
 
